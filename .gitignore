@@ -1,0 +1,14 @@
+# OCaml
+*.cmi
+*.cmo
+*.cmx
+*.o
+
+# Fichiers générés
+build/
+output/
+
+# Environnements de développement
+.idea/
+.vscode/
+.DS_Store
