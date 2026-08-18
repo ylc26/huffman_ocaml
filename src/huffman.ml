@@ -2,8 +2,8 @@
 NOM:LOUAGUENOUNI
 Prenom:Yanis
 Groupe: 2
-Compilation: ocamlc -o DM_Huffman_executable LOUAGUENOUNI_DM_Huffman_Yanis.ml
-Executer: ./DM_Huffman_executable 
+Compilation: make
+Exécution: make run
 *)
 
 (*Question 1*)
@@ -567,8 +567,7 @@ let encoder_fichier texte_in texte_out arbre =
 let () =
 Printf.printf "-------------------------------\n";
   Printf.printf "BONUS : Accélération du codage et Lecture/écriture de fichiers texte\n";
-  Printf.printf "Encodage avec arbre_test dans code.txt\n";
-  encoder_fichier "test.txt" "code.txt" arbre_test
+  Printf.printf "Encodage avec arbre_test dans output/code.txt\n";
+  encoder_fichier "examples/input.txt" "output/code.txt" arbre_test
   
   
-
